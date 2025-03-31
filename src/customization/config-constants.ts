@@ -1,10 +1,10 @@
-export const BASENAME = "";
+export const BASENAME = "/aiagent";
 export const PORT = 3000;
 export const PROXY_TARGET = "http://127.0.0.1:7860";
 export const API_ROUTES = ["^/api/v1/", "^/api/v2/", "/health"];
-export const BASE_URL_API = "/api/v1/";
-export const BASE_URL_API_V2 = "/api/v2/";
-export const HEALTH_CHECK_URL = "/health_check";
+export const BASE_URL_API = "/aiagent/api/v1/";
+export const BASE_URL_API_V2 = "/aiagent/api/v2/";
+export const HEALTH_CHECK_URL = "/aiagent/health_check";
 export const DOCS_LINK = "https://docs.langflow.org";
 
 export default {

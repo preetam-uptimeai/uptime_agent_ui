@@ -71,16 +71,6 @@ const StoreApiKeyFormComponent = ({
                   </Form.Message>
                 </Form.Field>
               </div>
-              <span className="pr-1 text-xs text-muted-foreground">
-                {CREATE_API_KEY}{" "}
-                <a
-                  className="text-high-indigo underline"
-                  href="https://langflow.store/"
-                  target="_blank"
-                >
-                  langflow.store
-                </a>
-              </span>
             </div>
           </CardContent>
           <CardFooter className="border-t px-6 py-4">
